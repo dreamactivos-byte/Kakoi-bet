@@ -1,0 +1,721 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <title>Kakoi bet</title>
+    <link rel="stylesheet" href="./style.css">
+
+  </head>
+    
+  <body>
+  <html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Futebol News - Portal Esportivo</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Header -->
+    <header class="main-header">
+        <div class="container">
+            <div class="logo">
+                <span class="logo-icon">⚽</span>
+                <h1>FUTEBOL<span class="highlight">NEWS</span></h1>
+            </div>
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="#noticias" class="active">Notícias</a></li>
+                    <li><a href="#analise">Análise</a></li>
+                    <li><a href="#destaques">Destaques</a></li>
+                    <li><a href="#calendario">Calendário</a></li>
+                    <li><a href="#classificacao">Classificação</a></li>
+                </ul>
+            </nav>
+            <div class="header-actions">
+                <span class="live-indicator">● AO VIVO</span>
+                <button class="menu-toggle" id="menuToggle">☰</button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Breaking News Ticker -->
+    <div class="breaking-news">
+        <div class="container">
+            <span class="breaking-label">URGENTE</span>
+            <span class="breaking-text">Barcelona assume liderança da La Liga após vitória sobre o Sevilla • Champions League: Play-offs começam terça-feira</span>
+        </div>
+    </div>
+
+    <!-- Main Content -->
+    <main class="container main-content">
+        
+        <!-- Section 1: Notícias Principais -->
+        <section id="noticias" class="news-section">
+            <h2 class="section-title">Notícias do Dia</h2>
+            
+            <article class="featured-news">
+                <div class="news-image">
+                    <img src="https://images.unsplash.com/photo-1508098682722-e99c43a406b2?w=800" alt="Estádio lotado">
+                    <span class="category-tag">La Liga</span>
+                </div>
+                <div class="news-content">
+                    <h3>Barcelona dispara na liderança: vitória convincente mantém catalães no topo</h3>
+                    <p class="lead">Com gols de Raphinha e Lamine Yamal, time de Hansi Flick superou o Sevilla por 2-0 no Spotify Camp Nou e abriu vantagem de um ponto sobre o Real Madrid na tabela.</p>
+                    <div class="meta">
+                        <span class="date">09 de fevereiro de 2025</span>
+                        <span class="author">Por Carlos Mendes</span>
+                    </div>
+                    <p>O Barcelona consolidou sua posição de líder da La Liga EA Sports 2025/26 após mais uma atuação sólida diante de sua torcida. O técnico Hansi Flick manteve a base que vem funcionando e viu sua equipe dominar as ações desde o apito inicial.</p>
+                    <p>Raphinha abriu o placar aos 22 minutos do primeiro tempo, aproveitando rebote na área após cobrança de escanteio. Já na etapa complementar, o jovem Lamine Yamal ampliou aos 67', em jogada individual que encantou os 44.301 presentes.</p>
+                    <p>"Estamos construindo algo especial aqui. A confiança está alta, mas sabemos que o campeonato é longo", afirmou Flick em coletiva após o jogo.</p>
+                    <div class="hashtags">#LaLiga #Barcelona #CampeonatoEspanhol #Futebol</div>
+                </div>
+            </article>
+
+            <div class="news-grid">
+                <article class="news-card">
+                    <div class="card-image">
+                        <img src="https://images.unsplash.com/photo-1577223625816-7546f13df25d?w=400" alt="Jogador comemorando">
+                        <span class="category-tag">Premier League</span>
+                    </div>
+                    <div class="card-content">
+                        <h4>Liverpool mantém invencibilidade e dispara na liderança inglesa</h4>
+                        <p class="lead">Equipe de Arne Slot vence clássico e abre vantagem de 13 pontos na tabela.</p>
+                        <span class="date">09 de fevereiro de 2025</span>
+                        <p>Com gols de Salah e Diaz, Reds superam rival em Anfield lotado...</p>
+                        <div class="hashtags">#PremierLeague #Liverpool #Inglaterra</div>
+                    </div>
+                </article>
+
+                <article class="news-card">
+                    <div class="card-image">
+                        <img src="https://images.unsplash.com/photo-1517466787929-bc90951d0974?w=400" alt="Troféu Champions">
+                        <span class="category-tag">Champions League</span>
+                    </div>
+                    <div class="card-content">
+                        <h4>Play-offs definidos: Real Madrid pega Benfica em duelo de gigantes</h4>
+                        <p class="lead">Fase de mata-mata começa nesta terça com jogos emocionantes.</p>
+                        <span class="date">09 de fevereiro de 2025</span>
+                        <p>Confronto entre merengues e águias promete esquentar a competição...</p>
+                        <div class="hashtags">#ChampionsLeague #RealMadrid #Benfica</div>
+                    </div>
+                </article>
+
+                <article class="news-card">
+                    <div class="card-image">
+                        <img src="https://images.unsplash.com/photo-1560272564-c830400ea0b6?w=400" alt="Jogador lesionado">
+                        <span class="category-tag">Lesões</span>
+                    </div>
+                    <div class="card-content">
+                        <h4>Real Madrid confirma lesão muscular de Vinícius Jr.</h4>
+                        <p class="lead">Camisa 7 desfalca equipe por três semanas após exame.</p>
+                        <span class="date">08 de fevereiro de 2025</span>
+                        <p>Departamento médico trabalha para recuperação antes dos playoffs...</p>
+                        <div class="hashtags">#RealMadrid #ViniciusJr #Lesão</div>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <!-- Section 2: Análise Tática -->
+        <section id="analise" class="analysis-section">
+            <h2 class="section-title">Análise Tática</h2>
+            <article class="analysis-article">
+                <div class="analysis-header">
+                    <h3>Como o Barcelona de Flick dominou o Sevilla com pressão alta e transições rápidas</h3>
+                    <div class="match-info">
+                        <span class="teams">Barcelona 2 x 0 Sevilla</span>
+                        <span class="date">Spotify Camp Nou • 08/02/2025</span>
+                    </div>
+                </div>
+                
+                <div class="tactical-board">
+                    <div class="formation team-home">
+                        <h4>Barcelona (4-2-3-1)</h4>
+                        <div class="formation-grid">
+                            <div class="pos gk">1</div>
+                            <div class="pos df">2</div>
+                            <div class="pos df">5</div>
+                            <div class="pos df">3</div>
+                            <div class="pos df">23</div>
+                            <div class="pos mf">8</div>
+                            <div class="pos mf">21</div>
+                            <div class="pos fw">19</div>
+                            <div class="pos fw">6</div>
+                            <div class="pos fw">11</div>
+                            <div class="pos st">9</div>
+                        </div>
+                    </div>
+                    
+                    <div class="vs-divider">VS</div>
+                    
+                    <div class="formation team-away">
+                        <h4>Sevilla (4-4-2)</h4>
+                        <div class="formation-grid away">
+                            <div class="pos gk">13</div>
+                            <div class="pos df">16</div>
+                            <div class="pos df">6</div>
+                            <div class="pos df">22</div>
+                            <div class="pos df">4</div>
+                            <div class="pos mf">10</div>
+                            <div class="pos mf">20</div>
+                            <div class="pos mf">8</div>
+                            <div class="pos mf">17</div>
+                            <div class="pos st">15</div>
+                            <div class="pos st">9</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="analysis-content">
+                    <h4>Estratégia dos Catalães</h4>
+                    <p>Hansi Flick implementou seu tradicional 4-2-3-1 com ênfase na pressão alta imediata após perda da bola. O Barcelona recuperou 68% das posses no terço final do campo, impedindo o Sevilla de construir jogadas organizadas.</p>
+                    
+                    <h4>Pontos Fortes</h4>
+                    <ul>
+                        <li><strong>Transições verticais:</strong> Média de 3.2 passes para chegar ao gol adversário</li>
+                        <li><strong>Pressão pós-perda:</strong> 12 desarmes no campo de ataque</li>
+                        <li><strong>Lateral ofensivo:</strong> Balde e Koundé somaram 8 cruzamentos precisos</li>
+                    </ul>
+
+                    <h4>Falhas do Sevilla</h4>
+                    <p>Equipe andaluz não conseguiu superar a primeira linha de pressão, resultando em 14 perdas de bola perigosas. A saída de três, tentada pelo técnico García Pimienta, foi anulada pela intensidade dos volantes blaugranas.</p>
+
+                    <div class="stats-box">
+                        <h4>Estatísticas da Partida</h4>
+                        <div class="stats-grid">
+                            <div class="stat-item">
+                                <span class="stat-value">62%</span>
+                                <span class="stat-label">Posse Barcelona</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-value">18</span>
+                                <span class="stat-label">Finalizações (6 à gol)</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-value">8</span>
+                                <span class="stat-label">Escanteios</span>
+                            </div>
+                            <div class="stat-item">
+                                <span class="stat-value">89%</span>
+                                <span class="stat-label">Passes certos</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="hashtags">#AnáliseTática #Barcelona #HansiFlick #Estratégia</div>
+                </div>
+            </article>
+        </section>
+
+        <!-- Section 3: Destaques da Semana -->
+        <section id="destaques" class="highlights-section">
+            <h2 class="section-title">Melhores da Semana</h2>
+            <div class="players-grid">
+                <div class="player-card featured">
+                    <div class="player-image">
+                        <img src="https://images.unsplash.com/photo-1560272564-c830400ea0b6?w=400" alt="Jogador">
+                        <div class="rating">9.5</div>
+                    </div>
+                    <div class="player-info">
+                        <h4>Lamine Yamal</h4>
+                        <span class="team">Barcelona</span>
+                        <p class="performance">2 gols e 1 assistência na vitória sobre Sevilla. O jovem de 17 anos dominou o lado direito do ataque com dribles precisos e visão de jogo impressionante.</p>
+                        <div class="stats">
+                            <span>⚽ 2 gols</span>
+                            <span>🅰️ 1 assist</span>
+                            <span>👟 4 dribles</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="player-card">
+                    <div class="player-image">
+                        <img src="https://images.unsplash.com/photo-1577223625816-7546f13df25d?w=400" alt="Jogador">
+                        <div class="rating">9.2</div>
+                    </div>
+                    <div class="player-info">
+                        <h4>Mohamed Salah</h4>
+                        <span class="team">Liverpool</span>
+                        <p class="performance">Hat-trick contra o Tottenham. Artilheiro disparado da Premier League.</p>
+                        <div class="stats">
+                            <span>⚽ 3 gols</span>
+                            <span>🎯 5 chutes</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="player-card">
+                    <div class="player-image">
+                        <img src="https://images.unsplash.com/photo-1517466787929-bc90951d0974?w=400" alt="Jogador">
+                        <div class="rating">8.8</div>
+                    </div>
+                    <div class="player-info">
+                        <h4>Jude Bellingham</h4>
+                        <span class="team">Real Madrid</span>
+                        <p class="performance">Dominou o meio-campo contra o Girona com passes decisivos e marcação forte.</p>
+                        <div class="stats">
+                            <span>🅰️ 2 assists</span>
+                            <span>💪 8 desarmes</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="player-card">
+                    <div class="player-image">
+                        <img src="https://images.unsplash.com/photo-1508098682722-e99c43a406b2?w=400" alt="Jogador">
+                        <div class="rating">8.7</div>
+                    </div>
+                    <div class="player-info">
+                        <h4>Victor Osimhen</h4>
+                        <span class="team">Galatasaray</span>
+                        <p class="performance">Dois gols na vitória sobre o Almería. Força física e definição impecáveis.</p>
+                        <div class="stats">
+                            <span>⚽ 2 gols</span>
+                            <span>🥊 6 finalizações</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 4: Calendário -->
+        <section id="calendario" class="calendar-section">
+            <h2 class="section-title">Próximos Jogos</h2>
+            <div class="calendar-filters">
+                <button class="filter-btn active" data-comp="all">Todos</button>
+                <button class="filter-btn" data-comp="ucl">Champions</button>
+                <button class="filter-btn" data-comp="liga">La Liga</button>
+                <button class="filter-btn" data-comp="epl">Premier</button>
+            </div>
+            
+            <div class="matches-list">
+                <div class="match-day">
+                    <h4>Terça-feira, 11 de fevereiro de 2025</h4>
+                    
+                    <div class="match-item" data-comp="ucl">
+                        <div class="match-time">17:45</div>
+                        <div class="match-teams">
+                            <span class="team-home">Galatasaray</span>
+                            <span class="vs">vs</span>
+                            <span class="team-away">Juventus</span>
+                        </div>
+                        <div class="match-comp">Champions League - Play-off</div>
+                        <div class="match-venue">Rams Park, Istambul</div>
+                    </div>
+
+                    <div class="match-item" data-comp="ucl">
+                        <div class="match-time">21:00</div>
+                        <div class="match-teams">
+                            <span class="team-home">Benfica</span>
+                            <span class="vs">vs</span>
+                            <span class="team-away">Real Madrid</span>
+                        </div>
+                        <div class="match-comp">Champions League - Play-off</div>
+                        <div class="match-venue">Estádio da Luz, Lisboa</div>
+                    </div>
+                </div>
+
+                <div class="match-day">
+                    <h4>Quarta-feira, 12 de fevereiro de 2025</h4>
+                    
+                    <div class="match-item" data-comp="ucl">
+                        <div class="match-time">17:45</div>
+                        <div class="match-teams">
+                            <span class="team-home">Qarabağ</span>
+                            <span class="vs">vs</span>
+                            <span class="team-away">Newcastle</span>
+                        </div>
+                        <div class="match-comp">Champions League - Play-off</div>
+                        <div class="match-venue">Tofiq Bahramov, Baku</div>
+                    </div>
+
+                    <div class="match-item" data-comp="ucl">
+                        <div class="match-time">21:00</div>
+                        <div class="match-teams">
+                            <span class="team-home">Club Brugge</span>
+                            <span class="vs">vs</span>
+                            <span class="team-away">Atlético de Madrid</span>
+                        </div>
+                        <div class="match-comp">Champions League - Play-off</div>
+                        <div class="match-venue">Jan Breydel, Bruges</div>
+                    </div>
+                </div>
+
+                <div class="match-day">
+                    <h4>Sábado, 15 de fevereiro de 2025</h4>
+                    
+                    <div class="match-item" data-comp="liga">
+                        <div class="match-time">14:00</div>
+                        <div class="match-teams">
+                            <span class="team-home">Getafe</span>
+                            <span class="vs">vs</span>
+                            <span class="team-away">Real Betis</span>
+                        </div>
+                        <div class="match-comp">La Liga - Rodada 24</div>
+                        <div class="match-venue">Coliseum Alfonso Pérez</div>
+                    </div>
+
+                    <div class="match-item" data-comp="epl">
+                        <div class="match-time">13:30</div>
+                        <div class="match-teams">
+                            <span class="team-home">Manchester City</span>
+                            <span class="vs">vs</span>
+                            <span class="team-away">Newcastle</span>
+                        </div>
+                        <div class="match-comp">Premier League</div>
+                        <div class="match-venue">Etihad Stadium</div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Section 5: Classificação -->
+        <section id="classificacao" class="standings-section">
+            <h2 class="section-title">Classificações</h2>
+            
+            <div class="standings-tabs">
+                <button class="tab-btn active" data-league="laliga">La Liga</button>
+                <button class="tab-btn" data-league="premier">Premier League</button>
+                <button class="tab-btn" data-league="seriea">Serie A</button>
+            </div>
+
+            <!-- La Liga -->
+            <div class="standings-table active" id="laliga">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Pos</th>
+                            <th>Time</th>
+                            <th>PJ</th>
+                            <th>V</th>
+                            <th>E</th>
+                            <th>D</th>
+                            <th>GP</th>
+                            <th>GC</th>
+                            <th>SG</th>
+                            <th>Pts</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="champions">
+                            <td>1</td>
+                            <td class="team-cell"><span class="badge">🔵</span> Barcelona</td>
+                            <td>23</td>
+                            <td>19</td>
+                            <td>1</td>
+                            <td>3</td>
+                            <td>63</td>
+                            <td>23</td>
+                            <td>+40</td>
+                            <td class="points">58</td>
+                        </tr>
+                        <tr class="champions">
+                            <td>2</td>
+                            <td class="team-cell"><span class="badge">⚪</span> Real Madrid</td>
+                            <td>23</td>
+                            <td>18</td>
+                            <td>3</td>
+                            <td>2</td>
+                            <td>49</td>
+                            <td>18</td>
+                            <td>+31</td>
+                            <td class="points">57</td>
+                        </tr>
+                        <tr class="champions">
+                            <td>3</td>
+                            <td class="team-cell"><span class="badge">🔴</span> Atlético de Madrid</td>
+                            <td>23</td>
+                            <td>13</td>
+                            <td>6</td>
+                            <td>4</td>
+                            <td>38</td>
+                            <td>18</td>
+                            <td>+20</td>
+                            <td class="points">45</td>
+                        </tr>
+                        <tr class="champions">
+                            <td>4</td>
+                            <td class="team-cell"><span class="badge">🟡</span> Villarreal</td>
+                            <td>21</td>
+                            <td>13</td>
+                            <td>3</td>
+                            <td>5</td>
+                            <td>39</td>
+                            <td>23</td>
+                            <td>+16</td>
+                            <td class="points">42</td>
+                        </tr>
+                        <tr class="europa">
+                            <td>5</td>
+                            <td class="team-cell"><span class="badge">🟢</span> Real Betis</td>
+                            <td>23</td>
+                            <td>10</td>
+                            <td>8</td>
+                            <td>5</td>
+                            <td>37</td>
+                            <td>28</td>
+                            <td>+9</td>
+                            <td class="points">38</td>
+                        </tr>
+                        <tr>
+                            <td>6</td>
+                            <td class="team-cell"><span class="badge">⚪</span> Espanyol</td>
+                            <td>22</td>
+                            <td>10</td>
+                            <td>4</td>
+                            <td>8</td>
+                            <td>26</td>
+                            <td>27</td>
+                            <td>-1</td>
+                            <td class="points">34</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <div class="legend">
+                    <span class="champions">● Champions League</span>
+                    <span class="europa">● Europa League</span>
+                    <span class="relegation">● Rebaixamento</span>
+                </div>
+            </div>
+
+            <!-- Premier League -->
+            <div class="standings-table" id="premier">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Pos</th>
+                            <th>Time</th>
+                            <th>PJ</th>
+                            <th>V</th>
+                            <th>E</th>
+                            <th>D</th>
+                            <th>GP</th>
+                            <th>GC</th>
+                            <th>SG</th>
+                            <th>Pts</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="champions">
+                            <td>1</td>
+                            <td class="team-cell"><span class="badge">🔴</span> Liverpool</td>
+                            <td>24</td>
+                            <td>17</td>
+                            <td>6</td>
+                            <td>1</td>
+                            <td>58</td>
+                            <td>24</td>
+                            <td>+34</td>
+                            <td class="points">60</td>
+                        </tr>
+                        <tr class="champions">
+                            <td>2</td>
+                            <td class="team-cell"><span class="badge">🔵</span> Arsenal</td>
+                            <td>24</td>
+                            <td>14</td>
+                            <td>8</td>
+                            <td>2</td>
+                            <td>51</td>
+                            <td>22</td>
+                            <td>+29</td>
+                            <td class="points">50</td>
+                        </tr>
+                        <tr class="champions">
+                            <td>3</td>
+                            <td class="team-cell"><span class="badge">🔵</span> Nottingham Forest</td>
+                            <td>24</td>
+                            <td>14</td>
+                            <td>5</td>
+                            <td>5</td>
+                            <td>41</td>
+                            <td>29</td>
+                            <td>+12</td>
+                            <td class="points">47</td>
+                        </tr>
+                        <tr class="champions">
+                            <td>4</td>
+                            <td class="team-cell"><span class="badge">🔵</span> Manchester City</td>
+                            <td>24</td>
+                            <td>13</td>
+                            <td>5</td>
+                            <td>6</td>
+                            <td>52</td>
+                            <td>32</td>
+                            <td>+20</td>
+                            <td class="points">44</td>
+                        </tr>
+                        <tr class="europa">
+                            <td>5</td>
+                            <td class="team-cell"><span class="badge">🔵</span> Newcastle</td>
+                            <td>24</td>
+                            <td>12</td>
+                            <td>5</td>
+                            <td>7</td>
+                            <td>42</td>
+                            <td>28</td>
+                            <td>+14</td>
+                            <td class="points">41</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+
+            <!-- Serie A -->
+            <div class="standings-table" id="seriea">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Pos</th>
+                            <th>Time</th>
+                            <th>PJ</th>
+                            <th>V</th>
+                            <th>E</th>
+                            <th>D</th>
+                            <th>GP</th>
+                            <th>GC</th>
+                            <th>SG</th>
+                            <th>Pts</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr class="champions">
+                            <td>1</td>
+                            <td class="team-cell"><span class="badge">⚫</span> Inter de Milão</td>
+                            <td>24</td>
+                            <td>16</td>
+                            <td>6</td>
+                            <td>2</td>
+                            <td>58</td>
+                            <td>24</td>
+                            <td>+34</td>
+                            <td class="points">54</td>
+                        </tr>
+                        <tr class="champions">
+                            <td>2</td>
+                            <td class="team-cell"><span class="badge">⚫</span> Napoli</td>
+                            <td>24</td>
+                            <td>16</td>
+                            <td>5</td>
+                            <td>3</td>
+                            <td>38</td>
+                            <td>18</td>
+                            <td>+20</td>
+                            <td class="points">53</td>
+                        </tr>
+                        <tr class="champions">
+                            <td>3</td>
+                            <td class="team-cell"><span class="badge">⚪</span> Atalanta</td>
+                            <td>24</td>
+                            <td>14</td>
+                            <td>5</td>
+                            <td>5</td>
+                            <td>48</td>
+                            <td>26</td>
+                            <td>+22</td>
+                            <td class="points">47</td>
+                        </tr>
+                        <tr class="champions">
+                            <td>4</td>
+                            <td class="team-cell"><span class="badge">🔵</span> Lazio</td>
+                            <td>24</td>
+                            <td>13</td>
+                            <td>4</td>
+                            <td>7</td>
+                            <td>42</td>
+                            <td>33</td>
+                            <td>+9</td>
+                            <td class="points">43</td>
+                        </tr>
+                        <tr class="europa">
+                            <td>5</td>
+                            <td class="team-cell"><span class="badge">⚫</span> Juventus</td>
+                            <td>24</td>
+                            <td>9</td>
+                            <td>13</td>
+                            <td>2</td>
+                            <td>45</td>
+                            <td>31</td>
+                            <td>+14</td>
+                            <td class="points">40</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <!-- Section 6: Entrevistas -->
+        <section class="interviews-section">
+            <h2 class="section-title">Entrevistas</h2>
+            <div class="interview-card">
+                <div class="interview-header">
+                    <img src="https://images.unsplash.com/photo-1577223625816-7546f13df25d?w=200" alt="Técnico" class="interviewee-photo">
+                    <div class="interviewee-info">
+                        <h4>Hansi Flick</h4>
+                        <span>Técnico do Barcelona</span>
+                    </div>
+                    <span class="interview-date">08/02/2025</span>
+                </div>
+                <div class="interview-content">
+                    <blockquote>
+                        "Estamos construindo algo especial aqui. A confiança está alta, mas sabemos que o campeonato é longo e precisamos manter os pés no chão. Lamine Yamal é um talento único, mas precisamos protegê-lo."
+                    </blockquote>
+                    <p class="interview-context">Após vitória sobre o Sevilla que manteve o Barcelona na liderança da La Liga</p>
+                </div>
+                <div class="hashtags">#Entrevista #HansiFlick #Barcelona</div>
+            </div>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer class="main-footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <h3>FUTEBOL<span class="highlight">NEWS</span></h3>
+                    <p>Seu portal de notícias esportivas com cobertura completa do futebol mundial.</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Competições</h4>
+                    <ul>
+                        <li><a href="#">Champions League</a></li>
+                        <li><a href="#">Premier League</a></li>
+                        <li><a href="#">La Liga</a></li>
+                        <li><a href="#">Serie A</a></li>
+                    </ul>
+                </div>
+                <div class="footer-links">
+                    <h4>Sobre</h4>
+                    <ul>
+                        <li><a href="#">Quem Somos</a></li>
+                        <li><a href="#">Contato</a></li>
+                        <li><a href="#">Trabalhe Conosco</a></li>
+                    </ul>
+                </div>
+                <div class="footer-social">
+                    <h4>Redes Sociais</h4>
+                    <div class="social-icons">
+                        <a href="#">📘</a>
+                        <a href="#">🐦</a>
+                        <a href="#">📸</a>
+                        <a href="#">▶️</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Futebol News. Todos os direitos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+    <script  src="./script.js"></script>
+
+  </body>
+  
+</html>
